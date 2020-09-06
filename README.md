@@ -1,0 +1,1 @@
+Installs in Debian all the required dependencies for building gnucash

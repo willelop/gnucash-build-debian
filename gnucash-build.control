@@ -1,0 +1,13 @@
+### Commented entries have reasonable defaults.
+### Uncomment to edit them.
+
+Section: misc
+Priority: optional
+Standards-Version: 3.9.2
+
+Package: gnucash-build
+Version: 1.0
+Depends: libglib2.0-dev,libxml2-dev,libxslt1-dev,libwebkit2gtk-4.0-dev,swig,guile-2.2-dev,libgwenhywfar-core-dev,libaqbanking-dev,libgwengui-gtk3-dev,libofx-dev,xsltproc,libboost-date-time-dev,libboost-regex-dev,libboost-locale-dev,libboost-filesystem-dev,libboost-system-dev,libboost-program-options-dev,libdbi-dev,googletest,google-mock,libsecret-1-dev,libdbd-sqlite3,libdbd-pgsql,libdbd-mysql,python3-dev,libgtest-dev,libgmock-dev
+Architecture: all
+Description: Gnucash build environment required packages
+ Install all the required packages to build gnucash 4.0
